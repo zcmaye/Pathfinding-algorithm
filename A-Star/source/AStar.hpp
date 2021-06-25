@@ -41,6 +41,7 @@ namespace AStar
 
     class Generator
     {
+    public:
         //碰撞检测
         bool detectCollision(Vec2i coordinates_);
         //查找坐标是否在集合中
